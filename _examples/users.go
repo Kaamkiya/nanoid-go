@@ -1,16 +1,16 @@
 package main
 
 import (
-	"net/http"
-	"log"
 	"encoding/json"
+	"log"
+	"net/http"
 
 	"github.com/Kaamkiya/nanoid-go"
 )
 
 type User struct {
 	Name string
-	ID string
+	ID   string
 }
 
 var users []User
@@ -29,13 +29,13 @@ func main() {
 			u.ID = nanoid.Nanoid(32, nanoid.DefaultCharset)
 			err = json.NewEncoder(w).Encode(u)
 			users = append(users, u)
-			
+
 			log.Printf("Added user %v\n", u)
 		case "GET":
 			if err := json.NewEncoder(w).Encode(users); err != nil {
 				w.WriteHeader(http.StatusInternalServerError)
 			}
-			
+
 			log.Printf("Got all users (len: %d)\n", len(users))
 		default:
 			w.WriteHeader(http.StatusMethodNotAllowed)

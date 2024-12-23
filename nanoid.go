@@ -1,8 +1,8 @@
 package nanoid
 
 import (
-	"math/big"
 	"crypto/rand"
+	"math/big"
 )
 
 const DefaultLength = 22
