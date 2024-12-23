@@ -1,5 +1,8 @@
 = nanoid
 
+image:https://goreportcard.com/badge/github.com/Kaamkiya/nanoid-go[Go Report Card]
+image:https://img.shields.io/badge/License-Unlicense-blue.svg[License: Unlicense]
+
 A small, fast library for generating cryptographically secure, URL safe IDs.
 
 == Installation
@@ -41,3 +44,7 @@ More complete examples can be found in link:_examples/[``_examples/``].
 * Fast.
 * Small - the only import is in the standard library.
 * URL safe - it only uses URL safe characters, unless you want it to use more.
+
+== License
+
+This project uses the link:LICENSE[Unlicense].
