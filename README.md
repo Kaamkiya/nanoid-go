@@ -48,7 +48,7 @@ More complete examples can be found in [`_examples/`](_examples).
 
 ## License
 
-This project uses the link:LICENSE[Unlicense].
+This project uses the [Unlicense](LICENSE).
 
 ## Thanks
 
