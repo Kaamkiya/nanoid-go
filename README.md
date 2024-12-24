@@ -1,44 +1,43 @@
-= nanoid
-
-image:https://goreportcard.com/badge/github.com/Kaamkiya/nanoid-go[Go Report Card]
-image:https://img.shields.io/badge/License-Unlicense-blue.svg[License: Unlicense]
-image:https://pkg.go.dev/badge/github.com/Kaamkiya/nanoid-go.svg[Go Reference,link="https://pkg.go.dev/github.com/Kaamkiya/nanoid-go"]
+<center>
+# nanoid
 
 A small, fast library for generating cryptographically secure, URL safe IDs.
 
-== Installation
+![Go Report Card](https://goreportcard.com/badge/github.com/Kaamkiya/nanoid-go)
+![License: Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Kaamkiya/nanoid-go.svg)](https://pkg.go.dev/github.com/Kaamkiya/nanoid-go)
+</center>
+
+## Installation
 
 To use this with your Go project:
 
-[source,bash]
-----
+```bash
 $ go get github.com/Kaamkiya/nanoid-go
-----
+```
 
-== Usage
+## Usage
 
 It's a simple library, and it exports only one function and two constants:
 
-[source,go]
-----
+```go
 const DefaultLength = 22
 const DefaultCharset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-_"
 
 func Nanoid(length int, charset []string) string
-----
+```
 
 To use the defaults:
 
-[source,go]
-----
+```go
 import "github.com/Kaamkiya/nanoid-go"
 
 nanoid.Nanoid(nanoid.DefaultLength, nanoid.DefaultCharset)
-----
+```
 
-More complete examples can be found in link:_examples/[``_examples/``].
+More complete examples can be found in [`_examples/`](_examples).
 
-== Features
+## Features
 
 * Cryptographically secure - it uses a secure random number generator to make
   the IDs.
@@ -46,6 +45,6 @@ More complete examples can be found in link:_examples/[``_examples/``].
 * Small - the only import is in the standard library.
 * URL safe - it only uses URL safe characters, unless you want it to use more.
 
-== License
+## License
 
 This project uses the link:LICENSE[Unlicense].
