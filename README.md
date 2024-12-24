@@ -1,12 +1,12 @@
-<center>
-# nanoid
+<p align="center">
+<h1>nanoid</h1>
 
 A small, fast library for generating cryptographically secure, URL safe IDs.
 
 ![Go Report Card](https://goreportcard.com/badge/github.com/Kaamkiya/nanoid-go)
 ![License: Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg)
 [![Go Reference](https://pkg.go.dev/badge/github.com/Kaamkiya/nanoid-go.svg)](https://pkg.go.dev/github.com/Kaamkiya/nanoid-go)
-</center>
+</p>
 
 ## Installation
 
@@ -18,14 +18,7 @@ $ go get github.com/Kaamkiya/nanoid-go
 
 ## Usage
 
-It's a simple library, and it exports only one function and two constants:
-
-```go
-const DefaultLength = 22
-const DefaultCharset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-_"
-
-func Nanoid(length int, charset []string) string
-```
+It's a simple library, and it exports only one function and two constants.
 
 To use the defaults:
 
@@ -48,3 +41,10 @@ More complete examples can be found in [`_examples/`](_examples).
 ## License
 
 This project uses the link:LICENSE[Unlicense].
+
+## Thanks
+
+Thanks to all of the contributors:
+
+* [Kaamkiya](https://github.com/Kaamkiya)
+
