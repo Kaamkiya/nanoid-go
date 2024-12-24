@@ -3,6 +3,7 @@
 <p align="center">
 A small, fast library for generating cryptographically secure, URL safe IDs.
 <br/>
+<br/>
 <a href="https://goreportcard.com/github.com/Kaamkiya/nanoid-go">
     <img src="https://goreportcard.com/badge/github.com/Kaamkiya/nanoid-go" alt="Go Report Card">
 </a>
@@ -15,6 +16,10 @@ A small, fast library for generating cryptographically secure, URL safe IDs.
     <img src="https://pkg.go.dev/badge/github.com/Kaamkiya/nanoid-go.svg" alt="Go Reference">
 </a>
 </p>
+
+## Demo
+
+![An example of a CLI that uses nanoid-go](cli.gif)
 
 ## Installation
 
