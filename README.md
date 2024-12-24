@@ -3,7 +3,7 @@
 <p align="center">
 A small, fast library for generating cryptographically secure, URL safe IDs.
 <br/>
-<a href="https://goreportcard.com/badge/github.com/Kaamkiya/nanoid-go">
+<a href="https://goreportcard.com/github.com/Kaamkiya/nanoid-go">
     <img src="https://goreportcard.com/badge/github.com/Kaamkiya/nanoid-go" alt="Go Report Card">
 </a>
 
