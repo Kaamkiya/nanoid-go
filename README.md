@@ -1,11 +1,19 @@
-<p align="center">
-<h1>nanoid</h1>
+<h1 align="center">nanoid</h1>
 
+<p align="center">
 A small, fast library for generating cryptographically secure, URL safe IDs.
 
-![Go Report Card](https://goreportcard.com/badge/github.com/Kaamkiya/nanoid-go)
-![License: Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg)
-[![Go Reference](https://pkg.go.dev/badge/github.com/Kaamkiya/nanoid-go.svg)](https://pkg.go.dev/github.com/Kaamkiya/nanoid-go)
+<a href="https://goreportcard.com/badge/github.com/Kaamkiya/nanoid-go">
+    <img src="https://goreportcard.com/badge/github.com/Kaamkiya/nanoid-go" alt="Go Report Card">
+</a>
+
+<a href="./LICENSE">
+    <img src="https://img.shields.io/badge/License-Unlicense-blue.svg" alt="License: Unlicense">
+</a>
+
+<a href="https://pkg.go.dev/github.com/Kaamkiya/nanoid-go">
+    <img src="https://pkg.go.dev/badge/github.com/Kaamkiya/nanoid-go.svg" alt="Go Reference">
+</a>
 </p>
 
 ## Installation
